@@ -17,8 +17,20 @@ The following scripts are available in the project:
 
 ## File structure
 
--   `package.json`: Contains metadata about the project, including dependencies, scripts, and other configurations.
--   `pnpm-lock.yaml`: Ensures that the exact same versions of dependencies are installed across different environments.
--   `.editorconfig`: Helps maintain consistent coding styles between different editors and IDEs.
--   `.prettierrc`: Configuration file for Prettier, a code formatter.
--   `cypress.config.js`: Configuration file for Cypress, an end-to-end testing framework.
+-   **node_modules/**: Directory for installed Node.js modules (ignored by version control).
+-   **cypress/**: Contains all Cypress-related files and directories.
+    -   **downloads/**: Directory for files downloaded during tests.
+    -   **e2e/**: Directory for end-to-end test files.
+        -   **test.cy.js**: Example end-to-end test file.
+    -   **fixtures/**: Directory for test fixtures.
+        -   **example.json**: Example fixture file.
+    -   **support/**: Directory for support files.
+        -   **commands.js**: Custom commands for Cypress.
+        -   **e2e.js**: Support file for end-to-end tests.
+-   **.editorconfig**: Configuration file for maintaining consistent coding styles.
+-   **.gitignore**: Specifies files to be ignored by Git.
+-   **.prettierrc**: Configuration file for Prettier code formatter.
+-   **cypress.config.js**: Configuration file for Cypress.
+-   **package.json**: Contains project metadata and dependencies.
+-   **pnpm-lock.yaml**: Lockfile for pnpm to ensure consistent installs.
+-   **README.md**: This README file.
