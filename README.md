@@ -8,6 +8,14 @@
 
 This project is set up to run and open Cypress for end-to-end testing.
 
+## Installation
+
+Before running any command and in order to install the project dependencies, run the following command:
+
+```sh
+pnpm install
+```
+
 ## Scripts
 
 The following scripts are available in the project:
