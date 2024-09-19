@@ -12,8 +12,8 @@ This project is set up to run and open Cypress for end-to-end testing.
 
 The following scripts are available in the project:
 
--   `cypress:open`: Opens the Cypress Test Runner.
--   `cypress:run`: Runs Cypress tests.
+-   `pnpm cypress:open`: Opens the Cypress Test Runner.
+-   `pnpm cypress:run`: Runs Cypress tests.
 
 ## File structure
 
